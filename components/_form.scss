@@ -1,0 +1,44 @@
+@use 'sass:math';
+
+%input{
+    border-radius: math.div($base-border-radius,4);
+    border: math.div($base-border-thickness,3) solid rgb(206, 202, 202);
+    font-weight: 100;
+    &:active{
+        border: $base-border-thickness solid rgb(16, 222, 71); 
+    }
+}
+
+$input-size:(
+    "xs": $base-font-size * 0.5,
+    "sm": $base-font-size * 1.2,
+    "md": $base-font-size * 1.4,
+    "lg": $base-font-size * 1.6,
+    "xl": $base-font-size * 1.8
+);
+
+@each $key, $val in $input-size{
+    .input-#{$key} {
+        @extend %input;
+        font-size: $val;
+        padding: 5px 7px;
+    }
+}
+
+.input-box{
+    display: grid;
+    padding: 5px;
+    margin-left: 2px;
+    label{
+        margin-bottom: 5px;
+     }
+}
+
+.input-inline{
+    display: inline;
+    margin-left: 2px;
+    label{
+        margin-right: 5px;
+    }
+}
+

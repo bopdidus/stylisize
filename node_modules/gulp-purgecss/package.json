@@ -1,0 +1,60 @@
+{
+  "name": "gulp-purgecss",
+  "version": "5.0.0",
+  "description": "Gulp plugin for purgecss",
+  "author": "Ffloriel",
+  "homepage": "https://purgecss.com",
+  "keywords": [
+    "optimize",
+    "optimization",
+    "remove",
+    "unused",
+    "css",
+    "gulpplugin",
+    "gulp",
+    "plugin",
+    "purge",
+    "uncss"
+  ],
+  "license": "MIT",
+  "main": "lib/gulp-purgecss.js",
+  "module": "./lib/gulp-purgecss.esm.js",
+  "types": "./lib/gulp-purgecss.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullHuman/purgecss.git"
+  },
+  "scripts": {
+    "build": "ts-node build.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "glob": "^8.0.3",
+    "plugin-error": "^2.0.0",
+    "purgecss": "^5.0.0",
+    "through2": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/event-stream": "^4.0.0",
+    "@types/glob": "^7.2.0",
+    "@types/through2": "^2.0.34",
+    "@types/vinyl": "^2.0.4",
+    "event-stream": "^4.0.1",
+    "vinyl": "^2.2.0",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/FullHuman/purgecss/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,25 @@
+/* reset styles  */
+
+*{
+    color:inherit;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border: 0;
+    border-top: 1px dotted #efefef;
+}
+img{
+    max-width: 100%;
+}

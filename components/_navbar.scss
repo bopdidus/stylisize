@@ -1,0 +1,52 @@
+@mixin flex-layout($content:space-between){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: $content
+}
+/*
+.navbar{
+        @include flex-layout();
+        padding: $base-padding $base-padding * 2;
+        box-shadow: $base-box-shadow;
+
+        .title{
+            font-size:  $base-font-lg;
+        }
+
+        .container{
+            @include flex-layout();
+        }
+}
+*/
+
+@each $k, $v in $floating-block{
+    .navbar-#{$k} {
+        @include flex-layout($v);
+        padding: $base-padding $base-padding * 1.5;
+        box-shadow: $base-box-shadow;
+        .title{
+            font-size:  $base-font-lg;
+        }
+        .menu-item{
+            padding: $base-padding;
+        }
+        .container{
+            @include flex-layout($v);
+        }
+        li{
+            padding: 15px 10px;
+        }
+    }
+
+    @each $key, $val in $colors{
+        .navbar-#{$k}-#{$key} {
+            @extend .navbar-#{$k};
+            background-color: $val;
+            li{
+                padding: 15px 10px;
+            }
+        }
+    }
+}

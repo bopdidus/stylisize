@@ -1,0 +1,63 @@
+//import 
+//functions
+@import 'functions';
+//google font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+//partials
+@import'variables';
+@import 'base';
+
+//colors
+@import 'colors';
+@import 'breakpoints';
+@import 'grid';
+//components
+@import 'components/card';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/form';
+@import 'components/menu';
+@import 'components/sidebar';
+
+.shadow{
+    box-shadow: 0 1px 1px 1px $shadow;
+}
+
+.shadow-right{
+    border: $base-border-thickness solid;
+    box-shadow: .1em 1px 1px 1px $shadow;
+}
+
+.shadow-left{
+    border: $base-border-thickness solid;
+    box-shadow: -.1em 1px 1px 1px $shadow;
+}
+
+.shadow-bottom{
+    border: $base-border-thickness solid;
+    box-shadow: 1px .1em 1px 1px $shadow;
+}
+
+.shadow-top{
+    border: $base-border-thickness solid;
+    box-shadow: -2px -.1em $shadow;
+}
+
+.text-xxl{
+    font-size: $base-font-xxl;
+}
+.text-xl{
+    font-size: $base-font-lg;
+}
+.text-l{
+    font-size: $base-font-md;
+}
+.text-m{
+    font-size: $base-font-sm;
+}
+.text-s{
+    font-size: $base-font-size;
+}
+
+//utilities (margin, padding,opacity)
+@import 'utilities';

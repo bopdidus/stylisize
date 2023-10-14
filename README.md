@@ -6,7 +6,9 @@ If you want to contribute, just follow the steps:
 - open the project in your text editor
 - If you want to add a new component, create the file in the component directory with the prefix '_'
 - add the component in your stylisize.scss file
-<b>Don't forget to create your own branch before any commit and push</b>
+
+
+  <b>Don't forget to create your own branch before any commit and push</b>
 
   ## How to use it?
   You can use either the stylisize.min.css which is in build/css directory or stylisize.css which is in css directory

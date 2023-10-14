@@ -1,9 +1,9 @@
-@mixin btn($bg-color:#e2e2e2){
+@mixin btn($bg-color:#e2e2e2,  $border-radius:0){
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
     padding: $base-padding $base-padding*2;
-    border-radius: $base-border-radius;
+    border-radius: $border-radius;
     background-color: $bg-color;
 }
 .btn{
@@ -11,7 +11,15 @@
 }
 
 @each $key, $val in $colors{
-    .btn-radius-#{$key}, .btn-#{$key}{
+    .btn-radius-#{$key}{
+        @include btn($val, $base-border-radius);
+        color: white;
+        border: 0;
+        &:hover{
+            background-color: lighten($val, 5)
+        }
+    }
+    .btn-#{$key}{
         @include btn($val);
         color: white;
         border: 0;
@@ -19,7 +27,16 @@
             background-color: lighten($val, 5)
         }
     }
-    .btn-radius-outlined-#{$key}, .btn-outlined-#{$key}{
+    .btn-radius-outlined-#{$key}{
+        @include btn(#fff, $base-border-radius);
+        border: $base-border-thickness solid $val;
+        color: $val;
+        &:hover{
+            background-color: $val;
+            color:white;
+        }
+    }
+    .btn-outlined-#{$key}{
         @include btn(#fff);
         border: $base-border-thickness solid $val;
         color: $val;

@@ -152,6 +152,19 @@ $utilities:(
     
     
 );
+$layout-values:(
+ "start": flex-start, 
+ "end": flex-end,
+ "center": center,
+ "between": space-between,
+ "around": space-around); 
+
+// justify content classes
+@each $key, $val in $layout-values{
+    .justify-#{$key}{
+        justify-content: $val;
+    }
+}
 
 .down-caret{
     width: 0;

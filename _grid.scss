@@ -8,13 +8,6 @@ $grid-gaps:(
     "3":30px,
 );
 
-$layout-values:(
- "start": flex-start, 
- "end": flex-end,
- "center": center,
- "between": space-between,
- "around": space-around); 
-
 //base payout classes
 .container{
     width: 100%;
@@ -39,12 +32,7 @@ $layout-values:(
     }
 }
 
-// justify content classes
-@each $key, $val in $layout-values{
-    .justify-#{$key}{
-        justify-content: $val;
-    }
-}
+
 
 //col classes
 @include xs{

@@ -11,7 +11,8 @@ If you want to contribute, just follow the steps:
   <b>Don't forget to create your own branch before any commit and push</b>
 
   ## How to use it?
-  You can use either the stylisize.min.css which is in build/css directory or stylisize.css which is in css directory
+  You can use either the stylisize.min.css which is in build/css directory or stylisize.css which is in css directory.
+  There are some parallax effects classes and animation class like flip flop. The next version of stylisize will separate stylisize style from animation and effects in different files.
 
   ## Examples
 

@@ -5,6 +5,7 @@
     padding: $base-padding $base-padding*2;
     border-radius: $border-radius;
     background-color: $bg-color;
+    border: 0
 }
 .btn{
     @include btn;

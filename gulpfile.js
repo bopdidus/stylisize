@@ -16,8 +16,8 @@ function watchTask()
 }
 
 exports.default = series(buildStyles, watchTask)
-*/
 
+*/
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const cleanCss = require('gulp-clean-css');

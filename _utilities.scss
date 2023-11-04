@@ -127,6 +127,16 @@ $utilities:(
         )
     ),
 
+    "text-align":(
+        "prefix":"text",
+        "values":(
+            "center":center,
+            "start":start,
+            "end":end,
+            "justify":justify
+        )
+    ),
+
     "border-radius":(
         "prefix":"br",
         "values":(

@@ -6051,6 +6051,22 @@ li:hover .down-caret {
   opacity: 100;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .br {
   border-radius: 20px;
 }

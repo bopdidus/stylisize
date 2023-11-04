@@ -3661,7 +3661,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #326dee;
   color: #326dee;
@@ -3677,7 +3677,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #326dee;
   color: #326dee;
@@ -3738,7 +3738,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #1ac888;
   color: #1ac888;
@@ -3754,7 +3754,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #1ac888;
   color: #1ac888;
@@ -3815,7 +3815,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #d32752;
   color: #d32752;
@@ -3831,7 +3831,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #d32752;
   color: #d32752;
@@ -3892,7 +3892,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #f6c31c;
   color: #f6c31c;
@@ -3908,7 +3908,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #f6c31c;
   color: #f6c31c;
@@ -3969,7 +3969,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #1919e6;
   color: #1919e6;
@@ -3985,7 +3985,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #1919e6;
   color: #1919e6;
@@ -4046,7 +4046,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid aqua;
   color: aqua;
@@ -4062,7 +4062,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid aqua;
   color: aqua;
@@ -4123,7 +4123,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid teal;
   color: teal;
@@ -4139,7 +4139,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid teal;
   color: teal;
@@ -4200,7 +4200,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #e61919;
   color: #e61919;
@@ -4216,7 +4216,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #e61919;
   color: #e61919;
@@ -4277,7 +4277,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #e6e619;
   color: #e6e619;
@@ -4293,7 +4293,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #e6e619;
   color: #e6e619;
@@ -4354,7 +4354,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #19e635;
   color: #19e635;
@@ -4370,7 +4370,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #19e635;
   color: #19e635;
@@ -4431,7 +4431,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #ffa600;
   color: #ffa600;
@@ -4447,7 +4447,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #ffa600;
   color: #ffa600;
@@ -4508,7 +4508,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #9900ff;
   color: #9900ff;
@@ -4524,7 +4524,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #9900ff;
   color: #9900ff;
@@ -4585,7 +4585,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #808080;
   color: #808080;
@@ -4601,7 +4601,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid #808080;
   color: #808080;
@@ -4662,7 +4662,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid black;
   color: black;
@@ -4678,7 +4678,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid black;
   color: black;
@@ -4739,7 +4739,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid white;
   color: white;
@@ -4755,7 +4755,7 @@ img {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0;
-  background-color: #fff;
+  background-color: transparent;
   border: 0;
   border: 1px solid white;
   color: white;

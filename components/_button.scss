@@ -29,7 +29,7 @@
         }
     }
     .btn-radius-outlined-#{$key}{
-        @include btn(#fff, $base-border-radius);
+        @include btn(transparent, $base-border-radius);
         border: $base-border-thickness solid $val;
         color: $val;
         &:hover{
@@ -38,7 +38,7 @@
         }
     }
     .btn-outlined-#{$key}{
-        @include btn(#fff);
+        @include btn(transparent);
         border: $base-border-thickness solid $val;
         color: $val;
         &:hover{

@@ -1,8 +1,8 @@
 # stylisize
-It is a new framework CSS, which contains a lot of classes in order to realize simple and beautiful webapps. This project is still in development and anybody can contribute. It realise with Sass and gulp.
+It is a new framework CSS, which contains a lot of classes to realize simple and beautiful webapps. This project is still in development and anybody can contribute. It realise with Sass and gulp.
 If you want to contribute, just follow the steps:
 
-- Create your own branch in the project
+- Create your branch in the project
 - open the project in your text editor
 - If you want to add a new component, create the file in the component directory with the prefix '_'
 - add the component in your stylisize.scss file
@@ -11,8 +11,8 @@ If you want to contribute, just follow the steps:
   <b>Don't forget to create your own branch before any commit and push</b>
 
   ## How to use it?
-  You can use either the stylisize.min.css which is in build/css directory or stylisize.css which is in css directory.
-  There are some parallax effects classes and animation class like flip flop. The next version of stylisize will separate stylisize style from animation and effects in different files.
+  You can use either stylisize.min.css which is in the build/css directory or stylisize.css which is in css directory.
+  There are some parallax effects classes and animation classes like flip flop. The next version of Stylisize will separate Stylisize style from animation and effects in different files.
 
   ## Examples
 

@@ -65,6 +65,7 @@ $utilities:(
             "3": $base-margin * 4,
             "4": $base-margin * 6,
             "5": $base-margin * 8,
+            "auto":auto
         )
     ),
     "margin-left":(
@@ -167,6 +168,7 @@ $layout-values:(
  "end": flex-end,
  "center": center,
  "between": space-between,
+ "evenly": space-evenly,
  "around": space-around); 
 
 // justify content classes
@@ -214,9 +216,19 @@ li{
                 #{$property}: $v;
             }
         }@else{
-            .#{$prefix}-#{$k}{
-                #{$property}:$v;
+            @if($k == "f"){
+                .#{$prefix}-#{$k}{
+                    #{$property}:$v;
+                    @media (max-width: 480px) {
+                        flex-direction: column;
+                      }
+                }
+            }@else{
+                .#{$prefix}-#{$k}{
+                    #{$property}:$v;
+                }
             }
+            
         }
     }
 

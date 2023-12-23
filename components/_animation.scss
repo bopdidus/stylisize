@@ -45,5 +45,18 @@
         @include prefix((transform: rotateY(180deg) ), webkit moz ms o);
       }
   }
+
+  .zoom-out{
+    transition: transform .5s;
+    &:hover{
+      @include prefix((transform: scale(1.2)), webkit moz ms o);
+    }
+  }
   
+  .zoom-in{
+    transition: transform .5s;
+    &:hover{
+      @include prefix((transform: scale(.9)), webkit moz ms o);
+    }
+  }
   

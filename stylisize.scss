@@ -16,13 +16,15 @@
 @import 'components/button';
 @import 'components/navbar';
 @import 'components/form';
+@import 'components/flexbox';
 @import 'components/menu';
 @import 'components/sidebar';
 @import 'components/animation';
 @import 'effects/parallax';
 
 .shadow{
-    box-shadow: 0 1px 1px 1px $shadow;
+    box-shadow: 1px 1px .1em 1px $shadow;
+
 }
 
 .shadow-right{

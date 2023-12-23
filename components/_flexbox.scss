@@ -1,0 +1,44 @@
+@mixin flex-grid($cols, $gutter:0){
+
+    display: flex;
+    flex-wrap: wrap;
+
+    > *{
+        margin-left: 0;
+        margin-bottom: 0;
+        $item-with: calc((100/ #{$cols}) - #{$gutter} + (#{$gutter}/ #{$cols}));
+        margin-right: $gutter;
+        width: $item-with;
+        box-sizing: border-box;
+
+        &:nth-child(n+#{$cols + 1})
+        {
+            margin-top: $gutter;
+        }
+
+        &:nth-child(#{$cols}n)
+        {
+            margin-right: 0;
+        }
+    }
+}
+
+.flex-2-cols{
+    @include flex-grid(2, 40px);
+}
+
+.flex-3-cols{
+    @include flex-grid(3, 30px);
+}
+
+.flex-5-cols{
+    @include flex-grid(5, 20px);
+}
+
+.flex-6-cols{
+    @include flex-grid(6, 10px);
+}
+
+.flex-7-cols{
+    @include flex-grid(7, 5px);
+}

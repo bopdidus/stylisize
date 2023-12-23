@@ -1,4 +1,4 @@
-/*
+
 const {src, dest, watch, series} = require('gulp')
 const sass = require('gulp-sass')(require('sass'))
 
@@ -17,7 +17,8 @@ function watchTask()
 
 exports.default = series(buildStyles, watchTask)
 
-*/
+
+/*
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const cleanCss = require('gulp-clean-css');
@@ -36,3 +37,4 @@ gulp.task("session-start", (cb) => {
 
 gulp.task('default', gulp.series('session-start'));
 
+*/

@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    justify-content: $content
+    justify-content: $content;
 }
 /*
 .navbar{
@@ -34,10 +34,15 @@
         }
         .container{
             @include flex-layout($v);
+            @media (max-width: 480px) {
+                flex-direction: column;
+              }
         }
         li{
             padding: 15px 10px;
         }
+
+       
     }
 
     @each $key, $val in $colors{

@@ -10,11 +10,12 @@
         border-bottom: 2px solid rgb(57, 56, 56);
         padding: 5px;
     }
-    a {
+    li {
         display: block;
         color: black;
         padding: 16px;
         text-decoration: none;
+        
       }
       a.active {
         font-weight: 600;
@@ -28,8 +29,8 @@
     padding: 1px 16px;
     height: 100%;
   }
-
-  @media (max-width: 700px) {
+/*
+  @media (min-width: 350px) and (max-width: 500px) {
     .sidebar-menu {
       width: 100%;
       height: auto;
@@ -37,15 +38,20 @@
       .sidebar-title{
         float: left;
       }
+     
         a {float: left;}
     }
     div.sidebar-content {margin-left: 0;}
   }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media (max-width: 400px) {
+  /*
+  @media (max-width: 350px) {
     .sidebar-menu a {
       text-align: center;
       float: none;
     }
+    .sidebar-menu-header{
+      border-bottom: 0;
   }
+  }*/
